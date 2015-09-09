@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="打砖块swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" id="0Ua-GB-Y1L">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue" id="gao-v5-acV">
+                                <rect key="frame" x="0.0" y="0.0" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue" id="CI7-1s-QEr">
+                                <rect key="frame" x="64" y="0.0" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue" id="WuI-v0-gkc">
+                                <rect key="frame" x="128" y="0.0" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue" id="HQ7-w9-K3i">
+                                <rect key="frame" x="256" y="0.0" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue" id="cYC-tT-uax">
+                                <rect key="frame" x="192" y="0.0" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green" id="03H-go-sbN">
+                                <rect key="frame" x="0.0" y="20" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green" id="hPb-G3-UVr">
+                                <rect key="frame" x="64" y="20" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green" id="sN5-6k-tO1">
+                                <rect key="frame" x="128" y="20" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green" id="Bwr-bj-qoK">
+                                <rect key="frame" x="256" y="20" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green" id="OIU-CP-l5V">
+                                <rect key="frame" x="192" y="20" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red" id="aYQ-Z4-K1K">
+                                <rect key="frame" x="0.0" y="40" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red" id="K4h-kK-pVc">
+                                <rect key="frame" x="64" y="40" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red" id="ulj-nA-s5G">
+                                <rect key="frame" x="128" y="40" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red" id="pUo-uI-XUU">
+                                <rect key="frame" x="256" y="40" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red" id="sTt-go-35Y">
+                                <rect key="frame" x="192" y="40" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow" id="mvt-3u-WaF">
+                                <rect key="frame" x="0.0" y="60" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow" id="yp3-m9-krL">
+                                <rect key="frame" x="64" y="60" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow" id="sv6-Do-QzO">
+                                <rect key="frame" x="128" y="60" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow" id="x1p-ov-sgS">
+                                <rect key="frame" x="256" y="60" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow" id="NH1-8Y-WoK">
+                                <rect key="frame" x="192" y="60" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball" id="oid-oO-sf8">
+                                <rect key="frame" x="150" y="496" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请点击屏幕开始游戏" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jiv-rz-5tg">
+                                <rect key="frame" x="0.0" y="273" width="320" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddle" id="RCg-Jx-Luz">
+                                <rect key="frame" x="108" y="517" width="104" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="RiD-3G-mWu" appends="YES" id="ugp-iq-OIu"/>
+                            <outletCollection property="gestureRecognizers" destination="3Wj-HW-hCd" appends="YES" id="CYC-it-plA"/>
+                        </connections>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="ball" destination="oid-oO-sf8" id="8xt-oH-4qN"/>
+                        <outlet property="message" destination="jiv-rz-5tg" id="6DP-ZW-a32"/>
+                        <outlet property="paddle" destination="RCg-Jx-Luz" id="eb9-QC-jhQ"/>
+                        <outlet property="panRecongizer" destination="3Wj-HW-hCd" id="u4P-u8-Brk"/>
+                        <outlet property="tapRecognizer" destination="RiD-3G-mWu" id="1OO-1c-CGe"/>
+                        <outletCollection property="blocks" destination="gao-v5-acV" collectionClass="NSMutableArray" id="KvT-ZL-Ui7"/>
+                        <outletCollection property="blocks" destination="CI7-1s-QEr" collectionClass="NSMutableArray" id="cEg-q6-c39"/>
+                        <outletCollection property="blocks" destination="WuI-v0-gkc" collectionClass="NSMutableArray" id="Aas-Ki-PiK"/>
+                        <outletCollection property="blocks" destination="cYC-tT-uax" collectionClass="NSMutableArray" id="wv2-XU-RPj"/>
+                        <outletCollection property="blocks" destination="HQ7-w9-K3i" collectionClass="NSMutableArray" id="Mhc-JO-N1F"/>
+                        <outletCollection property="blocks" destination="03H-go-sbN" collectionClass="NSMutableArray" id="ns8-zd-70h"/>
+                        <outletCollection property="blocks" destination="hPb-G3-UVr" collectionClass="NSMutableArray" id="ZJH-dA-fwo"/>
+                        <outletCollection property="blocks" destination="sN5-6k-tO1" collectionClass="NSMutableArray" id="ezW-Ev-gOK"/>
+                        <outletCollection property="blocks" destination="OIU-CP-l5V" collectionClass="NSMutableArray" id="BSV-Id-304"/>
+                        <outletCollection property="blocks" destination="Bwr-bj-qoK" collectionClass="NSMutableArray" id="sTK-IB-of9"/>
+                        <outletCollection property="blocks" destination="aYQ-Z4-K1K" collectionClass="NSMutableArray" id="4jC-NO-IA3"/>
+                        <outletCollection property="blocks" destination="K4h-kK-pVc" collectionClass="NSMutableArray" id="C9I-fV-xCv"/>
+                        <outletCollection property="blocks" destination="ulj-nA-s5G" collectionClass="NSMutableArray" id="sky-Qn-5R0"/>
+                        <outletCollection property="blocks" destination="sTt-go-35Y" collectionClass="NSMutableArray" id="EQ1-Iy-INE"/>
+                        <outletCollection property="blocks" destination="pUo-uI-XUU" collectionClass="NSMutableArray" id="xEj-8c-PFo"/>
+                        <outletCollection property="blocks" destination="mvt-3u-WaF" collectionClass="NSMutableArray" id="ODd-Jn-drK"/>
+                        <outletCollection property="blocks" destination="yp3-m9-krL" collectionClass="NSMutableArray" id="q5x-JR-b6f"/>
+                        <outletCollection property="blocks" destination="sv6-Do-QzO" collectionClass="NSMutableArray" id="Xy2-NF-uxG"/>
+                        <outletCollection property="blocks" destination="NH1-8Y-WoK" collectionClass="NSMutableArray" id="r5M-hg-IoC"/>
+                        <outletCollection property="blocks" destination="x1p-ov-sgS" collectionClass="NSMutableArray" id="jmr-hF-sP2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="RiD-3G-mWu">
+                    <connections>
+                        <action selector="tap:" destination="vXZ-lx-hvc" id="vDL-0x-zZK"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="3Wj-HW-hCd">
+                    <connections>
+                        <action selector="move:" destination="vXZ-lx-hvc" id="PPa-Gw-2dE"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="130" y="282"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ball" width="20" height="20"/>
+        <image name="bg" width="1350" height="1224"/>
+        <image name="blue" width="128" height="40"/>
+        <image name="green" width="128" height="40"/>
+        <image name="paddle" width="208" height="40"/>
+        <image name="red" width="128" height="40"/>
+        <image name="yellow" width="128" height="40"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
